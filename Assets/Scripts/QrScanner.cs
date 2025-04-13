@@ -84,13 +84,17 @@ public class QrScanner : MonoBehaviour {
 
         // Do something with the result
         if (result != null) {
+            KillTheDragon scrypt = GameObject.Find("MainCamera").GetComponent<KillTheDragon>();
             lastResult = result.Text + " " + result.BarcodeFormat;
-            print(lastResult);
+            
+            //TO CHANGE
+            //Planned to use WebUtils.cs and generatePrefab.cs, wrote them and fell asleep. Sorry :-(
+            scrypt.enabled = true;
+
         }
     }
 
     private void OnGUI() {
         // show decoded text on screen
-        GUI.TextField(new Rect(10, 10, 256, 150), lastResult);
     }
 }

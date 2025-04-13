@@ -45,7 +45,7 @@ public class KillTheDragon : MonoBehaviour
             TextMeshPro textComponent = runePrefab.TryGetComponent<TextMeshPro>(out var cachedTextComponent) ? cachedTextComponent : null;
             if (textComponent != null)
             {
-                textComponent.text = "YOU WIN!";
+                textComponent.text = "Zwycięstwo, wojowniku! TY WYGRAŁEŚ!";
             }
             else
             {
@@ -61,7 +61,7 @@ public class KillTheDragon : MonoBehaviour
             GameObject camera = Camera.main.gameObject;
             if (runePrefab.GetComponent<TextMeshPro>() != null)
             {
-                runePrefab.GetComponent<TextMeshPro>().text = "Rest, warrior. Then.. Try again..";
+                runePrefab.GetComponent<TextMeshPro>().text = "Odpocznij, wojowniku... A gdy siły wrócą — spróbuj raz jeszcze.";
             }
             else
             {
