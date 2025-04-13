@@ -1,0 +1,28 @@
+[Libraries and build stuff]
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+[Project settings]
+UserSettings/
+.vscode/
+
+[IDE stuff]
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+[Other]
+.DS_Store
+Thumbs.db
+*.apk
+*.exe
+*.log

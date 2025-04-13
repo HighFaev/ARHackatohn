@@ -1,0 +1,12 @@
+# ninja log v5
+37	514	7661958070357089	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	33adee05b44be508
+515	821	7661958072773406	E:/Unity/Projects/Memento Mori/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1d705c2z/obj/arm64-v8a/libswappywrapper.so	e52925b8bcf5ea7f
+19	1818	7661958083420388	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	715999b03414b584
+5	1862	7661958083691094	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	8b4535596435084
+16	1864	7661958083691094	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	617a1630db73c9af
+32	1928	7661958084247865	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	88de93ff12e09844
+1	2010	7661958085170376	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	983af7c6bbf13539
+27	2029	7661958085416177	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	2ab987db3739d0e9
+12	2195	7661958087221871	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	6da1032a3f3e439f
+9	2257	7661958087849887	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	3c06dd5e10521287
+2257	2334	7661958088656114	E:/Unity/Projects/Memento Mori/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1d705c2z/obj/arm64-v8a/libgame.so	cb11acf9b3f125ce
